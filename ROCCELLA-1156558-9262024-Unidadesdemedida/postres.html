@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cantina Chichilo</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff0000;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .platos {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        .plato {
+            text-align: center;
+            margin: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #ff0000;
+            color: white;
+        }
+        .contact {
+            color: #008000;
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        .slogan {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cantina Chichilo</h1>
+        <nav>
+            <a href="#platos">Platos</a>
+            <a href="#contacto">Contacto</a>
+            <a href="#slogan">Slogan</a>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <section id="platos">
+            <h2>Platos Destacados</h2>
+            <div class="platos">
+                <div class="plato">
+                    <a href="../Z" title="CEREZAS FLAMBE CON HELADO DE AMERICANA">
+                        <img alt="CEREZAS FLAMBE CON HELADO DE AMERICANA" src="../IMG_20180127_145453_519.jpg" width="250" height="250">
+                    </a>
+                    <p>Cerezas Flambé con Helado de Americana</p>
+                </div>
+                <div class="plato">
+                    <a href="../K" title="LA PICADA DEL MOSTRADOR, DONDE UD. ELIJE LOS GUSTOS">
+                        <img alt="NUESTRAS ENTRADAS CASERAS ITALIANAS" src="../IMG_20181201_205117_779.jpg" width="250" height="250">
+                    </a>
+                    <p>La Picada del Mostrador</p>
+                </div>
+                <div class="plato">
+                    <a href="../A" title="FLAN CASERO MIXTO">
+                        <img alt="EL FLAN CASERO MIXTO DE PURO HUEVO" src="../IMG_20190112_130206_551.jpg" width="250" height="250">
+                    </a>
+                    <p>Flan Casero Mixto</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p class="contact">
+                <a href="mailto:cantinachichilo@cantinachichilo.com.ar">cantinachichilo@cantinachichilo.com.ar</a>
+            </p>
+        </section>
+        
+        <section id="slogan">
+            <p class="slogan"><strong>¡SOMOS LOS VERDADEROS...! LOS DEMÁS NOS IMITAN...!</strong></p>
+            <p><u><span style="text-decoration: overline">*1956-2021*</span></u></p>
+            <a href="../50_ANOS.jpg">
+                <img src="../50_ANOS_small1.jpg" alt="50 Años" width="100" height="66" border="2">
+            </a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Cantina Chichilo. Todos los derechos reservados.</p>
+        <p><a href="http://www.traducegratis.com" style="color: white;">Los mejores traductores y diccionarios</a></p>
+    </footer>
+</body>
+</html>
